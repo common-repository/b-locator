@@ -1,0 +1,48 @@
+#b-locator form > h2:first-child {
+	font-size: 27px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#b-locator-instruction table {
+    background: #ddd;
+    border-radius: 3px;
+	padding: 10px;
+}
+#b-locator-table,
+#b-locator-table td:last-child input,
+#b-locator-table td:last-child textarea {
+	width: 100%;
+}
+#b-locator-table td:first-child {
+	vertical-align: top;
+	width: 120px;
+}
+
+#b-locator td input[type="text"],
+#b-locator td input[type="number"],
+#b-locator td textarea {
+	width: 520px;
+}
+#b-locator td p {
+	padding-left: 10px;
+}
+#select-image-container {
+    padding-top: 40px;
+    position: relative;
+}
+#select-image-container .action-image-upload {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#select-image-container .action-image-upload a {
+    cursor: pointer;
+    background: #0073aa;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 10px;
+}
+#select-image-container .action-image-upload a#remove-image {
+	background: #bd1313;
+}
